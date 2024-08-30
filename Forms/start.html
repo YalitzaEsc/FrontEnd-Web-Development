@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Form controls</h1>
+
+    <form action="/signup" method = "get">
+
+        <label for="first-name">First Name</label>
+        <input type="text" name = "first-name" id = "first-name">
+
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name">
+
+        <label for="username">Username</label>
+        <input type="text" name = "username" id = "username" placeholder="Username">
+
+        <label for="password">Password</label>
+        <input type="password" name = "paswword" id = "password" placeholder="Password" required>
+
+        <label for="check">Check Info</label>
+        <input type="radio" name="check" id="check">
+
+        <label for="text-area">This is your text area</label>
+        <textarea rows = "10", cols = "10" name="text-area" id="text-area"></textarea>
+
+        <label for="volume">Adjust the volume</label>
+        <input type="range" id = "volume">
+
+        <label for="checkbox">I agree to the terms of service</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+
+        <button>Submit</button>
+    </form>
+    
+
+</body>
+</html>
