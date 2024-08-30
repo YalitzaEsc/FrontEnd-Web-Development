@@ -9,7 +9,7 @@
     
     <h1>Form controls</h1>
 
-    <form action="/signup" method = "get">
+    <form action="/start" method = "get">
 
         <label for="first-name">First Name</label>
         <input type="text" name = "first-name" id = "first-name">
@@ -34,6 +34,17 @@
 
         <label for="checkbox">I agree to the terms of service</label>
         <input type="checkbox" name="checkbox" id="checkbox">
+
+        <label for="size">Tshirt Size</label>
+        <select name="size-selection" id="size">
+            <option value="small">small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+
+        <label for="contact">How do you prefer us to contact you?</label>
+        <input type="radio" name = "contact" id = "phone" value = "phone">
+        <input type="radio" name = "contact" id = "email" value="email">
 
         <button>Submit</button>
     </form>
