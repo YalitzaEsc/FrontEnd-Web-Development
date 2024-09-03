@@ -1,3 +1,9 @@
+
+body {
+    background-color: rgb(118, 118, 210, 0.5);
+    color: black;
+}
+
 p {
     color: green;
 }
