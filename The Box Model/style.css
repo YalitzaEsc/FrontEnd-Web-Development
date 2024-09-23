@@ -1,0 +1,36 @@
+body {
+    background-color: #463d36;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    width: 600px;
+    padding: 50px 0 40px 40px;
+    margin: 100px auto;
+}
+
+.time {
+    color: #a6192e;
+    font-size: 28px;
+    margin: 0;
+}
+
+.announce {
+    color: #463d36;
+    font-size: 40px;
+    margin: 0;
+}
+
+.btn {
+    background-color: #463d36;
+    color: white;
+    font-size: 24px;
+    padding: 30px 40px;
+}
+
+.text {
+    font-size: 24px;
+    margin-top: 28px;
+}
